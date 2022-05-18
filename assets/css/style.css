@@ -1,0 +1,41 @@
+* {
+    background-color: tan;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    line-height: 60px;
+    /* background-color: grey; */
+}
+
+.background {
+    height: 1000px;
+    width: 1200px;
+    /* background-image: url(./assets/images/backgroundImage.jpg); */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name {
+    text-align: left;
+    
+
+}
+
+.information {
+    text-align: right;
+}
+
+
+.header2 {
+    text-align: center;
+
+}
+
+.image {
+    height: 842px;
+    width: 595px;
+    display: block;
+}
