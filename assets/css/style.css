@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-weight: lighter;
 }
 
 body {
@@ -49,7 +50,7 @@ a {
 
 .image {
     height: 842px;
-    width: 635px;
+    width: 595px;
     display: block;
     position: absolute;
 }
@@ -66,20 +67,19 @@ a {
 
 
 .aboutme h2 {
-    
     position: absolute;
-    top: 100px;
-    right: 200px;
-    width: 30%;
-    display: inline-block;
-    padding: 1%;
-    float: right;
-    font-size: 45px;
+    top: 101px;
+    left: 600px;
+    padding: 2%;
+    font-size: 65px;
     color: #fdf8f5;
 }
 
 .aboutme p {
-
+    position: absolute;
+    top: 220px;
+    left: 600px;
+    color: #fdf8f5;
 }
 
 .footer {
