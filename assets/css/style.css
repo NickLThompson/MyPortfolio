@@ -15,7 +15,7 @@ header {
 }
 
 header h1 {
-    padding-left: 40px;
+    padding-left: 60px;
     font-size: 40px;
     color: #fdf8f5;
 }
@@ -29,7 +29,7 @@ header h1 {
 }
 
 ul {
-    margin: 20px;
+    margin: 15px;
 }
 
 /* display: inline forces the text to be left and right */
@@ -41,8 +41,7 @@ li {
 
 a {
     text-decoration: none;
-    font-size: 25px;
-    padding-bottom: 2px;
+    font-size: 30px;
     border-bottom-style: solid;
     color: #fdf8f5;
 }
@@ -59,27 +58,28 @@ a {
     filter: blur(20px);
     background: url(./assets/images/backgroundimage.png) no-repeat center;
     background-size: cover;
-    height: 800;
+    height: 800%;
     width: 100%;
     position: relative;
     z-index: -1;
 }
 
 .article {
+    text-align: center;
     position: relative;
-    left: 595px;
-    bottom: 1246px;
-    width: 37.5%;
+    left: 810px;
+    bottom: 1100px;
+    width: 45%;
     display: inline-block;
-    margin-right: 20px;
-    height: 300px;
-    background-color: #35353f;
+    height: 310px;
+    /* background: rgba(53, 53, 63, 0.5); */
 }
 
 .article h2 {
-    padding-bottom: 1%;
-    top: 107px;
-    left: 595px;
+    line-height: 90px;
+    padding: 2%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
     font-size: 65px;
     color: #fdf8f5;
 }
@@ -90,7 +90,6 @@ a {
     left: 595px;
     color: #fdf8f5;
     font-size: 30px;
-    background-color: #35353f;
 }
 
 .section {
@@ -116,4 +115,24 @@ a {
     background-color: #26282A;
     font-size: 35px;
     color: #fdf8f5;
+}
+
+.button {
+    background-color:#118515;
+    border-radius: 12px;
+    
+    display: inline-block;
+    position: relative;
+    left: 275px;
+    bottom: 970px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 50px;
+    font-size: 35px;
+    color: #fdf8f5;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    
 }
