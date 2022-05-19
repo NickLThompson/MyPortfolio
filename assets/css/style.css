@@ -65,29 +65,47 @@ a {
     z-index: -1;
 }
 
+.article {
+    position: relative;
+    left: 595px;
+    bottom: 1246px;
+    width: 37.5%;
+    display: inline-block;
+    margin-right: 20px;
+    height: 300px;
+    background-color: #35353f;
+}
 
-.card h2 {
-    display: block;
-    position: absolute;
-    top: 101px;
-    left: 600px;
-    padding: 2%;
+.article h2 {
+    padding-bottom: 1%;
+    top: 107px;
+    left: 595px;
     font-size: 65px;
     color: #fdf8f5;
 }
 
-.card p {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    height: 350px;
-    width: 90%
-    top: 220px;
+
+.article p {
+    top: 250px;
     left: 595px;
     color: #fdf8f5;
     font-size: 30px;
-    padding: 50px;
     background-color: #35353f;
+}
+
+.section {
+    width: 100%;
+}
+
+.container {
+    width: 90%;
+    max-width: 1269px;
+    margin-right: auto;
+    margin-right: auto;
+}
+
+.section-header {
+
 }
 
 .footer {
