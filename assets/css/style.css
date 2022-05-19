@@ -76,10 +76,12 @@ a {
 }
 
 .aboutme p {
+    display: block;
     position: absolute;
     top: 220px;
     left: 600px;
     color: #fdf8f5;
+    font-size: 30px;
 }
 
 .footer {
