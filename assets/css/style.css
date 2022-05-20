@@ -9,7 +9,7 @@ body {
 
 header {
     display: block;
-    padding: 1%;
+    padding: 14px;
     line-height: 70px;
     background-color: #26282A
 }
@@ -58,6 +58,7 @@ a {
     filter: blur(20px);
     background: url(./assets/images/backgroundimage.png) no-repeat center;
     background-size: cover;
+    marginb:
     height: 800%;
     width: 100%;
     position: relative;
@@ -68,7 +69,7 @@ a {
     text-align: center;
     position: relative;
     left: 810px;
-    bottom: 1100px;
+    bottom: 1140px;
     width: 45%;
     display: inline-block;
     height: 310px;
@@ -103,8 +104,30 @@ a {
     margin-right: auto;
 }
 
-.section-header {
+#AboutMe {
+    left: 595px;
+    width: 68%;
+    bottom: 864px;
+    height: 150px;
+    position: relative;
+    background-color: #26282A;
+    color: #fdf8f5;
+}
 
+#AboutMe h3 {
+    text-align: left;
+    font-size: 60px;
+    padding: 40px 0px 40px 20px;
+}
+
+#AboutMe p {
+    text-align: left;
+    left: 390px;
+    width: 50%;
+    bottom: 120px;
+    position: relative;
+    color: #fdf8f5;
+    font-size: 28px;
 }
 
 .footer {
@@ -116,6 +139,7 @@ a {
     font-size: 35px;
     color: #fdf8f5;
 }
+
 
 .button {
     background-color:#118515;
@@ -136,3 +160,4 @@ a {
 .button:hover {
     
 }
+
