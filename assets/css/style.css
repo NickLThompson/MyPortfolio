@@ -58,8 +58,7 @@ a {
     filter: blur(20px);
     background: url(./assets/images/backgroundimage.png) no-repeat center;
     background-size: cover;
-    marginb:
-    height: 800%;
+    height: 100%;
     width: 100%;
     position: relative;
     z-index: -1;
@@ -130,6 +129,76 @@ a {
     font-size: 28px;
 }
 
+.Currents {
+    display: block;
+    position: relative;
+    left: 765px;
+    bottom: 1000px;
+    width: 600px;
+    height: auto;
+}
+
+#projects1 {
+    text-align: center;
+    left: 75px;
+    bottom: 750px;
+    position: relative;
+    color: #fdf8f5;
+    font-size: 75px;
+    width: 20%;
+    padding: 1%;
+    border-style: groove;
+    border-width: 6px;
+}
+
+.Coming-Soon {
+    display: block;
+    position: relative;
+    left: 850px;
+    bottom: 1000px;
+    width: 450px;
+    height: auto;
+}
+
+.Coming-Soon2 {
+    display: block;
+    position: relative;
+    left: 850px;
+    bottom: 1000px;
+    width: 450px;
+    height: auto;
+}
+
+#comingsoon {
+    text-align: center;
+    left: 75px;
+    bottom: 750px;
+    position: relative;
+    color: black;
+    font-size: 75px;
+    width: 20%;
+    padding: 1%;
+    border-style: groove;
+    border-width: 6px;
+}
+
+.comingsoon2 {
+    width: 450px;
+    height: 335px;
+    text-align: center;
+    left: 75px;
+    top: 750px;
+    position: relative;
+    color: black;
+    font-size: 75px;
+    width: 20%;
+    padding: 1%;
+    border-style: groove;
+    border-width: 6px;
+
+}
+
+
 .footer {
     text-align: center;
     display: block;
@@ -144,7 +213,6 @@ a {
 .button {
     background-color:#118515;
     border-radius: 12px;
-    
     display: inline-block;
     position: relative;
     left: 275px;
