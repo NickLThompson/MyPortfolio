@@ -198,6 +198,16 @@ a {
 
 }
 
+#ContactInfo {
+    width: 100%;
+    bottom: 864px;
+    height: 150px;
+    position: relative;
+    background-color: #26282A;
+    color: #fdf8f5;
+    font-size: 25px;
+}
+
 
 .footer {
     text-align: center;
